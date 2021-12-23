@@ -1,0 +1,50 @@
+/* Расположение блоков на странице */
+body{
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+
+/* Карточка */
+.card{
+    border: 2px double deeppink;
+    border-radius: 20px;
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+p{
+    font-family: Arial, serif;
+    font-size: 18px;
+    line-height: 1.5em;
+
+    margin: 0;
+}
+
+span{
+    background: deepskyblue;
+    color: white;
+    padding: 5px;
+
+    border-radius: 5px;
+}
+
+a{
+    background: deepskyblue;
+    color: white;
+    padding: 5px;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+a:hover{
+    background: lightseagreen;
+}
+
